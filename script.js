@@ -3,6 +3,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const burgerBtn = document.querySelector('.header-burger-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     const body = document.body;
+
+    if (burgerBtn && mobileMenu) {
+        burgerBtn.addEventListener('click', function() {
+            const burgerInner = document.querySelector('.burger-inner');
+            mobileMenu.classList.toggle('open');
+            burgerInner.classList.toggle('active');
+            body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+        });
+    }
     
     // Add this new code - Desktop language dropdown toggle
     const desktopLanguagePicker = document.getElementById('language-picker-desktop');
@@ -216,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Hero section
             'ADP Automation Corp.': 'ADP Automation Corp.',
-            'Your complete source for machinery services, electrical controls, troubleshooting, instrumentation, and 24/7 on-call support.': 'Su fuente completa para servicios de maquinaria, controles eléctricos, solución de problemas, instrumentación y soporte las 24 horas.',
+            'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Atendiendo a pueblos, municipios y clientes privados con servicios y reparaciones de control y automatización con soporte disponible 24/7.',
             
             // Section titles and subsections
             'We troubleshoot and repair:': 'Solución de problemas y reparación:',
@@ -257,12 +266,13 @@ document.addEventListener('DOMContentLoaded', function() {
             'Flow meters': 'Medidores de flujo',
             'pH level monitoring': 'Monitoreo de nivel de pH',
             'Turbidimeter': 'Turbidímetro',
-            'Calibrations': 'Calibraciones',
+            'Annual & on-demand calibrations': 'Calibraciónes anuales y requeridas',
             'Field service troubleshooting for:': 'Servicio de solución de problemas en campo para:',
             'Control systems': 'Sistemas de control',
             'Electric motors': 'Motores eléctricos',
             'Level control': 'Control de nivel',
             'Alarms & Radios': 'Alarmas y Radios',
+            'We perform new installs of complete systems.': 'Realizamos nuevas instalaciones de sistemas completos.',
             'We also upgrade outdated systems to new technologies.': 'También actualizamos sistemas obsoletos a nuevas tecnologías.',
             
             // Contact section
@@ -270,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Email:': 'Correo electrónico:',
             'Address:': 'Dirección:',
             'Hours:': 'Horario:',
-            'Monday-Friday: 8am-10pm': 'Lunes-Viernes: 8am-10pm',
+            'Monday-Friday: 8am-5pm': 'Lunes-Viernes: 8am-5pm',
             '24/7 Emergency Service Available': 'Servicio de Emergencia 24/7 Disponible',
             'New Windsor, NY 12553': 'New Windsor, NY 12553',
             
@@ -294,11 +304,11 @@ document.addEventListener('DOMContentLoaded', function() {
             'ADP Automation Corp. was established in 2008, starting out specializing in building control panels. Now offering a variety of services, ADP Automation Corp delivers top quality services utilizing original manufacturer practices and schematics.': 
             'ADP Automation Corp. fue establecida en 2008, comenzando con especialización en la construcción de paneles de control. Ahora ofrece una variedad de servicios, ADP Automation Corp ofrece servicios de alta calidad utilizando prácticas y esquemas originales del fabricante.',
             
-            'Providing on-site troubleshooting and maintenance as well, the primary goal is to maintain the customer\'s priorities as our priorities. We maintain close functional customer relationships to keep your equipment running.': 
-            'Proporcionando también solución de problemas y mantenimiento in situ, el objetivo principal es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener su equipo funcionando.',
+            "Providing on-site troubleshooting and maintenance to towns, municipalities, and private customers. The primary goal is to maintain the customer's priorities as our priorities. We maintain close functional customer relationships to keep your equipment running.": 
+            'Proporcionando solución de problemas y mantenimiento en el sitio a pueblos, municipios y clientes privados. El objetivo principal es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener su equipo en funcionamiento.',
             
-            'We generally service Orange, Sullivan, Ulster, Dutchess, Putnam. Contact for specific locations.': 
-            'Generalmente damos servicio en Orange, Sullivan, Ulster, Dutchess, Putnam. Contáctenos para ubicaciones específicas.',
+            'We are based in New York. We generally service Orange, Sullivan, Ulster, Dutchess, Putnam. Contact for additional locations.': 
+            'Estamos ubicados en Nueva York. Generalmente atendemos Orange, Sullivan, Ulster, Dutchess, Putnam. Contáctenos para ubicaciones adicionales.',
             
             // Gallery section
             'Past Work': 'Trabajos Anteriores'
