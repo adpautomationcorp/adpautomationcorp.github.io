@@ -225,14 +225,14 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Hero section
             'ADP Automation Corp.': 'ADP Automation Corp.',
-            'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Atendiendo a pueblos, municipios y clientes privados con servicios y reparaciones de control y automatización con soporte disponible 24/7.',
+            'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Al servicio de ciudades, municipios y clientes privados haciendo diagnosticos y reparaciones de paneles de control y automatización con soporte disponible 24/7.',
             
             // Section titles and subsections
-            'We troubleshoot and repair:': 'Solución de problemas y reparación:',
-            'Water & Wastewater Systems': 'Sistemas de Agua y Aguas Residuales',
-            'Wireless and Control Systems': 'Sistemas Inalámbricos y de Control',
-            'PLC / HMI Programming': 'Programación PLC / HMI',
-            'Industrial Motor Controls': 'Controles de Motores Industriales',
+            'We troubleshoot and repair:': 'Diagnosticos de problemas y reparaciónes:',
+            'Water & Wastewater Systems': 'Sistemas para produccion de Agua potable y manejo de Aguas Residuales',
+            'Wireless and Control Systems': 'Sistemas Inalámbricos de Control',
+            'PLC / HMI Programming': 'Programación de PLC / HMI',
+            'Industrial Motor Controls': 'Control de Motores Industriales',
             'Instrumentation': 'Instrumentación',
             'Services, Upgrades and Repairs': 'Servicios, Actualizaciones y Reparaciones',
             'Contact Us': 'Contáctenos',
@@ -240,40 +240,40 @@ document.addEventListener('DOMContentLoaded', function() {
             // Service card content
             'Water:': 'Agua:',
             'Wastewater:': 'Aguas Residuales:',
-            'Booster stations': 'Estaciones de refuerzo',
+            'Booster stations': 'Estaciones Elevadoras de Presion',
             'Filtration systems': 'Sistemas de filtración',
-            'Water level': 'Nivel de agua',
-            'Tank levels': 'Niveles de tanque',
-            'Well pump controls': 'Controles de bombas de pozo',
+            'Water level': 'Niveles de agua',
+            'Tank levels': 'Niveles de tanques',
+            'Well pump controls': 'Controles de bombas de agua de pozo',
             'Pump stations': 'Estaciones de bombeo',
-            'Press machines': 'Máquinas de prensa',
+            'Press machines': 'Máquinas prensadoras',
             'Wet well controls': 'Controles de pozo húmedo',
             'Remote signals': 'Señales remotas',
-            'Radio and cellular wireless communications for control and alarms': 'Comunicaciones inalámbricas por radio y celular para control y alarmas',
-            'Tank level monitoring': 'Monitoreo del nivel del tanque',
-            'Remote motor controls': 'Controles remotos de motor',
-            'Cell phone alarm notifications': 'Notificaciones de alarma por teléfono celular',
-            'Touch screen PLC\'s for controls': 'PLC con pantalla táctil para controles',
+            'Radio and cellular wireless communications for control and alarms': 'Comunicaciones inalámbricas por radio y por red celular para control y alarmas',
+            'Tank level monitoring': 'Monitoreo de nivel de tanques',
+            'Remote motor controls': 'Controles remotos para motores',
+            'Cell phone alarm notifications': 'Notificaciones de alarma por aplicaciones de teléfono celular',
+            'Touch screen PLC\'s for controls': 'PLC y pantalla táctil para diversos controles',
             'SCADA': 'SCADA',
             'Remote Terminal Units (RTU\'s)': 'Unidades Terminales Remotas (RTU)',
             'Human Machine Interfaces': 'Interfaces Hombre-Máquina',
             'Variable Frequency Drive (VFD\'s)': 'Variadores de Frecuencia (VFD)',
-            'Motor Diagnostics': 'Diagnósticos de Motor',
+            '3 Phase Motor Diagnostics': 'Diagnósticos de Motores electricos trifasicos',
             'Low-voltage and high-voltage motors': 'Motores de bajo y alto voltaje',
-            'Soft staters': 'Arranques suaves',
+            'Soft staters': 'Arranques de motores suaves',
             'Motor protection systems': 'Sistemas de protección de motores',
             'Synchronous and induction motors': 'Motores síncronos y de inducción',
-            'Flow meters': 'Medidores de flujo',
+            'Flow meters': 'Medidores de flujo de agua',
             'pH level monitoring': 'Monitoreo de nivel de pH',
-            'Turbidimeter': 'Turbidímetro',
+            'Turbidimeters': 'Turbidímetros',
             'Annual & on-demand calibrations': 'Calibraciónes anuales y requeridas',
-            'Field service troubleshooting for:': 'Servicio de solución de problemas en campo para:',
+            'Field service troubleshooting for:': 'Servicio de diagnostico de problemas en campo:',
             'Control systems': 'Sistemas de control',
             'Electric motors': 'Motores eléctricos',
-            'Level control': 'Control de nivel',
+            'Level control': 'Controles de nivel',
             'Alarms & Radios': 'Alarmas y Radios',
             'We perform new installs of complete systems.': 'Realizamos nuevas instalaciones de sistemas completos.',
-            'We also upgrade outdated systems to new technologies.': 'También actualizamos sistemas obsoletos a nuevas tecnologías.',
+            'We also upgrade outdated systems to new technologies.': 'También actualizamos sistemas obsoletos hacia nuevas tecnologías.',
             
             // Contact section
             'To schedule a call or get more information:': 'Para programar una llamada u obtener más información:',
@@ -297,15 +297,15 @@ document.addEventListener('DOMContentLoaded', function() {
             'Your message has been sent. We will contact you shortly.': 'Su mensaje ha sido enviado. Nos pondremos en contacto con usted pronto.',
             
             // Footer
-            '© 2025 ADP Automation and Controls. All rights reserved.': '© 2025 ADP Automation and Controls. Todos los derechos reservados.',
+            '© 2025 ADP Automation Corp. All rights reserved.': '© 2025 ADP Automation Corp. Todos los derechos reservados.',
             
             // About section
             'About': 'Acerca de',
             'ADP Automation Corp. was established in 2008, starting out specializing in building control panels. Now offering a variety of services, ADP Automation Corp delivers top quality services utilizing original manufacturer practices and schematics.': 
-            'ADP Automation Corp. fue establecida en 2008, comenzando con especialización en la construcción de paneles de control. Ahora ofrece una variedad de servicios, ADP Automation Corp ofrece servicios de alta calidad utilizando prácticas y esquemas originales del fabricante.',
+            'ADP Automation Corp. Comenzo en 2008 especializandose en la construcción de paneles de control. Ahora ofrece una variedad de servicios, ADP Automation Corp ofrece servicios de alta calidad utilizando prácticas y procedimientos originales del fabricante de equipos.',
             
             "Providing on-site troubleshooting and maintenance to towns, municipalities, and private customers. The primary goal is to maintain the customer's priorities as our priorities. We maintain close functional customer relationships to keep your equipment running.": 
-            'Proporcionando solución de problemas y mantenimiento en el sitio a pueblos, municipios y clientes privados. El objetivo principal es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener su equipo en funcionamiento.',
+            'Ofreciendo solución a problemas y mantenimiento en el campo a ciudades, municipios y clientes privados. El objetivo principal nuestro es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener sus equipo en funcionamiento.',
             
             'We are based in New York. We generally service Orange, Sullivan, Ulster, Dutchess, Putnam. Contact for additional locations.': 
             'Estamos ubicados en Nueva York. Generalmente atendemos Orange, Sullivan, Ulster, Dutchess, Putnam. Contáctenos para ubicaciones adicionales.',
