@@ -225,12 +225,12 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Hero section
             'ADP Automation Corp.': 'ADP Automation Corp.',
-            'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Al servicio de ciudades, municipios y clientes privados haciendo diagnosticos y reparaciones de paneles de control y automatización con soporte disponible 24/7.',
+            'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Al servicio de ciudades, municipios y clientes privados haciendo diagnósticos y reparaciones de paneles de control y automatización con soporte disponible 24/7.',
             
             // Section titles and subsections
-            'We troubleshoot and repair:': 'Diagnosticos de problemas y reparaciónes:',
-            'Water & Wastewater Systems': 'Sistemas para produccion de Agua potable y manejo de Aguas Residuales',
-            'Wireless and Control Systems': 'Sistemas Inalámbricos de Control',
+            'We troubleshoot and repair:': 'Diagnóstico de Problemas y Reparaciones:',
+            'Water & Wastewater Systems': 'Sistemas de Producción de Agua Potable y Manejo de Aguas Residuales',
+            'Wireless and Control Systems': 'Sistemas de Control Inalámbricos',
             'PLC / HMI Programming': 'Programación de PLC / HMI',
             'Industrial Motor Controls': 'Control de Motores Industriales',
             'Instrumentation': 'Instrumentación',
@@ -240,8 +240,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Service card content
             'Water:': 'Agua:',
             'Wastewater:': 'Aguas Residuales:',
-            'Booster stations': 'Estaciones Elevadoras de Presion',
-            'Filtration systems': 'Sistemas de filtración',
+            'Booster stations': 'Estaciones elevadoras de presión',
+            'Motor diagnostics': 'Diagnóstico de motores',
+            'Filtration systems and plants': 'Sistemas y plantas de filtración',
             'Water level': 'Niveles de agua',
             'Tank levels': 'Niveles de tanques',
             'Well pump controls': 'Controles de bombas de agua de pozo',
@@ -258,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Remote Terminal Units (RTU\'s)': 'Unidades Terminales Remotas (RTU)',
             'Human Machine Interfaces': 'Interfaces Hombre-Máquina',
             'Variable Frequency Drive (VFD\'s)': 'Variadores de Frecuencia (VFD)',
-            '3 Phase Motor Diagnostics': 'Diagnósticos de Motores electricos trifasicos',
+            '3 Phase Motor Diagnostics': 'Diagnósticos de Motores eléctricos trifásicos',
             'Low-voltage and high-voltage motors': 'Motores de bajo y alto voltaje',
             'Soft staters': 'Arranques de motores suaves',
             'Motor protection systems': 'Sistemas de protección de motores',
@@ -266,8 +267,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'Flow meters': 'Medidores de flujo de agua',
             'pH level monitoring': 'Monitoreo de nivel de pH',
             'Turbidimeters': 'Turbidímetros',
-            'Annual & on-demand calibrations': 'Calibraciónes anuales y requeridas',
-            'Field service troubleshooting for:': 'Servicio de diagnostico de problemas en campo:',
+            'Annual & on-demand calibrations': 'Calibraciones anuales y requeridas',
+            'Field service troubleshooting for:': 'Servicio de diagnóstico de problemas en campo:',
             'Control systems': 'Sistemas de control',
             'Electric motors': 'Motores eléctricos',
             'Level control': 'Controles de nivel',
@@ -302,13 +303,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // About section
             'About': 'Acerca de',
             'ADP Automation Corp. was established in 2008, starting out specializing in building control panels. Now offering a variety of services, ADP Automation Corp delivers top quality services utilizing original manufacturer practices and schematics.': 
-            'ADP Automation Corp. Comenzo en 2008 especializandose en la construcción de paneles de control. Ahora ofrece una variedad de servicios, ADP Automation Corp ofrece servicios de alta calidad utilizando prácticas y procedimientos originales del fabricante de equipos.',
+            'ADP Automation Corp. Comenzó en 2008 especializándose en la construcción de paneles de control. Ahora ofrece una variedad de servicios, ADP Automation Corp ofrece servicios de alta calidad utilizando prácticas y procedimientos originales del fabricante de equipos.',
             
             "Providing on-site troubleshooting and maintenance to towns, municipalities, and private customers. The primary goal is to maintain the customer's priorities as our priorities. We maintain close functional customer relationships to keep your equipment running.": 
-            'Ofreciendo solución a problemas y mantenimiento en el campo a ciudades, municipios y clientes privados. El objetivo principal nuestro es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener sus equipo en funcionamiento.',
+            'Ofrecemos soluciones a problemas y mantenimiento en el campo, ciudades, municipios y clientes privados. El objetivo principal nuestro es mantener las prioridades del cliente como nuestras prioridades. Mantenemos relaciones funcionales cercanas con los clientes para mantener su equipo en funcionamiento.',
             
             'We are based in New York. We generally service Orange, Sullivan, Ulster, Dutchess, Putnam. Contact for additional locations.': 
-            'Estamos ubicados en Nueva York. Generalmente atendemos Orange, Sullivan, Ulster, Dutchess, Putnam. Contáctenos para ubicaciones adicionales.',
+            'Estamos ubicados en Nueva York. Generalmente atendemos en los Condados de Orange, Sullivan, Ulster, Dutchess, y Putnam. Contáctenos para ubicaciones adicionales.',
             
             // Gallery section
             'Past Work': 'Trabajos Anteriores'
