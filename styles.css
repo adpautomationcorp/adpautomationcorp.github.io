@@ -433,14 +433,15 @@ img {
 
 .section-divider {
     margin: 60px 0;
+    margin-bottom: -20px;
     border: 0;
     height: 1px;
-    background-color: #ddd;
+    background-color: #ccc;
 }
 
 /* About Section Styles */
 .about-section {
-    padding: 80px 0;
+    padding: 20px 0;
     background-color: rgba(218, 239, 255, 0.8);
 }
 
@@ -460,6 +461,8 @@ img {
     margin-bottom: 20px;
     line-height: 1.6;
     font-size: 20px; /* Increased from 18px to 20px */
+    text-align: justify; /* Added to justify the text */
+    margin-right: 5px;
 }
 
 .about-image {
