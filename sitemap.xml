@@ -2,22 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://adpaut.com/</loc>
-    <lastmod>2025-03-28</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://adpaut.com/#services</loc>
-    <lastmod>2025-03-28</lastmod>
+    <loc>https://adpaut.com/services/water-wastewater-controls.html</loc>
+    <lastmod>2026-07-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://adpaut.com/#about</loc>
-    <lastmod>2025-03-28</lastmod>
+    <loc>https://adpaut.com/services/plc-hmi-scada-programming.html</loc>
+    <lastmod>2026-07-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://adpaut.com/#contact</loc>
-    <lastmod>2025-03-28</lastmod>
+    <loc>https://adpaut.com/services/industrial-motor-controls.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adpaut.com/services/wireless-remote-monitoring.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adpaut.com/services/instrumentation-calibration.html</loc>
+    <lastmod>2026-07-02</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

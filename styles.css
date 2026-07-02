@@ -786,3 +786,189 @@ img {
         height: 200px;
     }
 }
+
+/* Hero CTA */
+.hero-actions {
+    margin-top: 30px;
+}
+
+.btn-hero {
+    display: inline-block;
+    background-color: rgba(0, 1, 252, 0.9);
+    color: #fff;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-hero:hover {
+    background-color: rgba(0, 1, 252, 1);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* FAQ / Service Areas Section */
+.faq-section {
+    padding: 40px 0;
+    background-color: rgba(218, 239, 255, 0.8);
+}
+
+.faq-list {
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+    padding: 0 24px;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 20px 0;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+    position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.faq-item[open] summary::after {
+    content: "\2013";
+}
+
+.faq-item p {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* "Learn more" links on homepage service cards */
+.service-link {
+    display: inline-block;
+    margin-top: 14px;
+    color: #0016dc;
+    font-weight: 600;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
+
+/* Dedicated service pages */
+.page-section {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background-color: rgba(218, 239, 255, 0.8);
+    min-height: 60vh;
+}
+
+.breadcrumb {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.breadcrumb a {
+    color: #0016dc;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.page-section .service-details p {
+    font-weight: 600;
+    color: #444;
+    margin-top: 1.2rem;
+}
+
+.page-section ul {
+    padding-left: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+.page-section li {
+    margin-bottom: 0.5rem;
+}
+
+.page-lead {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.page-cta {
+    margin: 30px 0 10px;
+}
+
+.related-services {
+    background-color: rgba(218, 239, 255, 0.8);
+    padding: 20px 0 60px;
+}
+
+.related-services h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.related-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.related-list a {
+    color: #0016dc;
+    font-weight: 500;
+}
+
+.related-list a:hover {
+    text-decoration: underline;
+}
+
+/* Footer navigation (internal links) */
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 24px;
+    max-width: 900px;
+}
+
+.footer-nav a {
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}

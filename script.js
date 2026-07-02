@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Auto-update copyright year so the footer never looks stale
+    document.querySelectorAll('.current-year').forEach(function(el) {
+        el.textContent = new Date().getFullYear();
+    });
+
     // Mobile menu toggle
     const burgerBtn = document.querySelector('.header-burger-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -131,10 +136,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Simple form validation - still good to have client-side
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
-            
-            if (!name || !email || !subject || !message) {
+
+            if (!name || !email || !message) {
                 e.preventDefault(); // Prevent submission only if validation fails
                 alert('Please fill out all required fields.');
                 return;
@@ -226,6 +230,29 @@ document.addEventListener('DOMContentLoaded', function() {
             // Hero section
             'ADP Automation Corp.': 'ADP Automation Corp.',
             'Servicing towns, municipalities, and private customers with control and automation services and repairs with 24/7 on-call support.': 'Al servicio de ciudades, municipios y clientes privados haciendo diagnósticos y reparaciones de paneles de control y automatización con soporte disponible 24/7.',
+            'Controls, automation, and SCADA services for towns, municipalities, and private customers across New York\'s Hudson Valley, with 24/7 on-call support.': 'Servicios de control, automatización y SCADA para ciudades, municipios y clientes privados en todo el Valle del Hudson de Nueva York, con soporte disponible 24/7.',
+
+            // Services heading & call-to-action (added)
+            'Controls & Automation Services': 'Servicios de Control y Automatización',
+            'Request a Quote': 'Solicite una cotización',
+
+            // "Learn more" service-page links (added)
+            'Learn more about water & wastewater controls →': 'Más información sobre controles de agua y aguas residuales →',
+            'Learn more about wireless & remote monitoring →': 'Más información sobre sistemas inalámbricos y monitoreo remoto →',
+            'Learn more about PLC, HMI & SCADA programming →': 'Más información sobre programación de PLC, HMI y SCADA →',
+            'Learn more about industrial motor controls & VFDs →': 'Más información sobre controles de motores industriales y VFD →',
+            'Learn more about instrumentation & calibration →': 'Más información sobre instrumentación y calibración →',
+
+            // Service Areas & FAQ accordion (added)
+            'Service Areas & FAQ': 'Áreas de Servicio y Preguntas Frecuentes',
+            'What areas do you serve?': '¿Qué áreas atienden?',
+            'We are based in New Windsor, NY and regularly serve Orange, Ulster, Dutchess, Sullivan, and Putnam counties throughout the Hudson Valley. For projects farther out across New York and neighboring states, contact us and we will let you know if we can help.': 'Estamos ubicados en New Windsor, NY y atendemos regularmente los condados de Orange, Ulster, Dutchess, Sullivan y Putnam en todo el Valle del Hudson. Para proyectos más lejanos en Nueva York y estados vecinos, contáctenos y le informaremos si podemos ayudar.',
+            'Do you offer 24/7 emergency service?': '¿Ofrecen servicio de emergencia 24/7?',
+            'Yes. We provide 24/7 on-call emergency support for control systems, pump stations, motor controls, and alarms, so towns, municipalities, and private facilities can keep critical equipment running.': 'Sí. Ofrecemos soporte de emergencia 24/7 para sistemas de control, estaciones de bombeo, controles de motores y alarmas, para que ciudades, municipios e instalaciones privadas puedan mantener funcionando su equipo crítico.',
+            'What systems and industries do you work on?': '¿En qué sistemas e industrias trabajan?',
+            'We work on industrial and municipal systems, including water and wastewater controls, pump and booster stations, industrial motor controls and VFDs, instrumentation and calibration, and custom control panels.': 'Trabajamos en sistemas industriales y municipales, incluidos controles de agua y aguas residuales, estaciones de bombeo y elevadoras de presión, controles de motores industriales y VFD, instrumentación y calibración, y paneles de control personalizados.',
+            'Do you program PLCs and SCADA systems?': '¿Programan PLCs y sistemas SCADA?',
+            'Yes. We program PLCs, HMIs, and SCADA systems, and we set up remote monitoring using radio and cellular communications, tank level monitoring, and cell phone alarm notifications.': 'Sí. Programamos PLCs, HMIs y sistemas SCADA, y configuramos monitoreo remoto mediante comunicaciones por radio y celular, monitoreo de nivel de tanques y notificaciones de alarma por teléfono celular.',
             
             // Section titles and subsections
             'We troubleshoot and repair:': 'Diagnóstico de Problemas y Reparaciones:',
@@ -390,6 +417,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Gallery section
         document.querySelectorAll('.gallery-section h2').forEach(el => {
+            if (!el.hasAttribute('data-translate')) {
+                el.setAttribute('data-translate', el.textContent.trim());
+            }
+        });
+
+        // Hero CTA, "Learn more" links, and FAQ accordion (added sections)
+        document.querySelectorAll('.btn-hero, .service-link, .faq-item summary, .faq-item p').forEach(el => {
             if (!el.hasAttribute('data-translate')) {
                 el.setAttribute('data-translate', el.textContent.trim());
             }
