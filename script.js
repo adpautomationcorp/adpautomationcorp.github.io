@@ -236,6 +236,36 @@ document.addEventListener('DOMContentLoaded', function() {
             'Controls & Automation Services': 'Servicios de Control y Automatización',
             'Request a Quote': 'Solicite una cotización',
 
+            // --- Service page content (added) ---
+            "Water & Wastewater Controls": "Controles de Agua y Aguas Residuales",
+            "PLC, HMI & SCADA Programming": "Programación de PLC, HMI y SCADA",
+            "Industrial Motor Controls & VFDs": "Controles de Motores Industriales y VFD",
+            "Wireless & Remote Monitoring": "Sistemas Inalámbricos y Monitoreo Remoto",
+            "Instrumentation & Calibration": "Instrumentación y Calibración",
+            "Other services": "Otros servicios",
+            "Water & Wastewater System Controls in the Hudson Valley, NY": "Controles de Sistemas de Agua y Aguas Residuales en el Valle del Hudson, NY",
+            "PLC, HMI & SCADA Programming in New York's Hudson Valley": "Programación de PLC, HMI y SCADA en el Valle del Hudson de Nueva York",
+            "Industrial Motor Controls & VFD Repair in the Hudson Valley, NY": "Controles de Motores Industriales y Reparación de VFD en el Valle del Hudson, NY",
+            "Wireless & Remote Monitoring Systems in the Hudson Valley, NY": "Sistemas Inalámbricos y de Monitoreo Remoto en el Valle del Hudson, NY",
+            "Instrumentation & Calibration Services in the Hudson Valley, NY": "Servicios de Instrumentación y Calibración en el Valle del Hudson, NY",
+            "ADP Automation troubleshoots, repairs, and upgrades control systems for municipal and private water and wastewater facilities across the Hudson Valley. From booster stations to wet wells, we keep your water infrastructure running.": "ADP Automation diagnostica, repara y actualiza sistemas de control para instalaciones municipales y privadas de agua y aguas residuales en todo el Valle del Hudson. Desde estaciones elevadoras de presión hasta pozos húmedos, mantenemos su infraestructura de agua en funcionamiento.",
+            "We program and integrate PLCs, touchscreen HMIs, and SCADA systems for industrial plants and municipal facilities throughout the Hudson Valley. New builds, upgrades from outdated systems, and on-site troubleshooting.": "Programamos e integramos PLCs, HMIs de pantalla táctil y sistemas SCADA para plantas industriales e instalaciones municipales en todo el Valle del Hudson. Nuevas instalaciones, actualizaciones de sistemas obsoletos y diagnóstico de problemas en el sitio.",
+            "ADP Automation services and repairs industrial motor controls for facilities across the Hudson Valley, including variable frequency drives, soft starters, and motor protection systems.": "ADP Automation da servicio y repara controles de motores industriales para instalaciones en todo el Valle del Hudson, incluidos variadores de frecuencia, arranques suaves y sistemas de protección de motores.",
+            "We design and install wireless control and remote monitoring systems that let towns, municipalities, and private facilities watch and control equipment from anywhere across the Hudson Valley.": "Diseñamos e instalamos sistemas de control inalámbrico y monitoreo remoto que permiten a ciudades, municipios e instalaciones privadas supervisar y controlar equipos desde cualquier lugar en todo el Valle del Hudson.",
+            "ADP Automation installs, calibrates, and maintains process instrumentation for water, wastewater, and industrial systems throughout the Hudson Valley.": "ADP Automation instala, calibra y mantiene instrumentación de proceso para sistemas de agua, aguas residuales e industriales en todo el Valle del Hudson.",
+            "Water systems:": "Sistemas de agua:",
+            "Wastewater systems:": "Sistemas de aguas residuales:",
+            "We generally serve Orange, Ulster, Dutchess, Sullivan, and Putnam counties, with 24/7 on-call emergency support. Contact us for locations farther out.": "Generalmente atendemos los condados de Orange, Ulster, Dutchess, Sullivan y Putnam, con soporte de emergencia disponible 24/7. Contáctenos para ubicaciones más lejanas.",
+            "Water level and tank level controls": "Controles de nivel de agua y de tanques",
+            "Remote signals and alarms": "Señales remotas y alarmas",
+            "Touchscreen PLCs for controls": "PLC de pantalla táctil para controles",
+            "SCADA systems": "Sistemas SCADA",
+            "Remote Terminal Units (RTUs)": "Unidades Terminales Remotas (RTU)",
+            "Human Machine Interfaces (HMIs)": "Interfaces Hombre-Máquina (HMI)",
+            "Variable Frequency Drives (VFDs)": "Variadores de Frecuencia (VFD)",
+            "Soft starters": "Arranques de motores suaves",
+            "Annual and on-demand calibrations": "Calibraciones anuales y requeridas",
+
             // "Learn more" service-page links (added)
             'Learn more about water & wastewater controls →': 'Más información sobre controles de agua y aguas residuales →',
             'Learn more about wireless & remote monitoring →': 'Más información sobre sistemas inalámbricos y monitoreo remoto →',
@@ -424,6 +454,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Hero CTA, "Learn more" links, and FAQ accordion (added sections)
         document.querySelectorAll('.btn-hero, .service-link, .faq-item summary, .faq-item p').forEach(el => {
+            if (!el.hasAttribute('data-translate')) {
+                el.setAttribute('data-translate', el.textContent.trim());
+            }
+        });
+
+        // Service pages: breadcrumb, related-services links, and footer nav
+        document.querySelectorAll('.breadcrumb a, .breadcrumb span, .related-list a, .footer-nav a').forEach(el => {
             if (!el.hasAttribute('data-translate')) {
                 el.setAttribute('data-translate', el.textContent.trim());
             }
