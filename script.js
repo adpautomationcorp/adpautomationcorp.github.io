@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Mobile menu links close menu when clicked
-    const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+    // Exclude the language toggle so tapping it opens its dropdown instead of closing the menu
+    const mobileMenuLinks = document.querySelectorAll('#mobile-menu a:not(.current-language-mobile)');
     mobileMenuLinks.forEach(link => {
         link.addEventListener('click', function() {
             mobileMenu.classList.remove('open');

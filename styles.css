@@ -205,8 +205,12 @@ img {
     transition: all 0.3s;
 }
 
+.top-bun, .patty, .bottom-bun {
+    transform-origin: center;
+}
+
 .burger-inner.active .top-bun {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: translateY(11px) rotate(45deg);
 }
 
 .burger-inner.active .patty {
@@ -214,7 +218,7 @@ img {
 }
 
 .burger-inner.active .bottom-bun {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: translateY(-11px) rotate(-45deg);
 }
 
 /* Mobile Menu */
