@@ -306,6 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Water level': 'Niveles de agua',
             'Tank levels': 'Niveles de tanques',
             'Well pump controls': 'Controles de bombas de agua de pozo',
+            'Disinfection and ozone system controls': 'Controles de sistemas de desinfección y ozono',
             'Pump stations': 'Estaciones de bombeo',
             'Press machines': 'Máquinas prensadoras',
             'Wet well controls': 'Controles de pozo húmedo',
